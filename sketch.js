@@ -43,11 +43,11 @@ function draw(){
    drawWords(width * 0.25);
    
    textAlign(CENTER);
-   fill(120);
+   fill(130);
    drawWords(width * 0.5);
 
    textAlign(LEFT);
-   fill(190);
+   fill(220);
    drawWords(width * 0.75);
 
     x1 = x1+25;
