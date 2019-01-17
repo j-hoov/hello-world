@@ -12,7 +12,6 @@ function setup(){
     textFont(font);
     textSize(fontsize);
     textAlign(CENTER,CENTER);
-
 }
 
 x1 = 15; 
@@ -37,9 +36,8 @@ function draw(){
 
     fill(80);
     ellipse(730,200,80,80);
-
-       
-
+ 
+// text
    textAlign(RIGHT);
    fill(65);
    drawWords(width * 0.25);
@@ -55,7 +53,6 @@ function draw(){
     x1 = x1+25;
     x2 = x2-25;
     f = f+10;
-
 }
 
 function drawWords(x){
@@ -64,18 +61,5 @@ function drawWords(x){
 
     text('world',x,220);
 }
-    
-    
-//    fill(100, 60, 35);
-  //  rect(300, 300, 100, 100);
-    //fill(0, 0, 255);
-    //ellipse(100, 100, 30, 80);
-    //fill(250, 250, 250);
-    //ellipse(300, 300, 50, 50);
-    //fill(250, 250, 250);
-    //ellipse(400, 300, 50, 50);
-    //fill(165, 42, 42);
-    //ellipse(307, 307, 30, 30);
-    //fill(165, 42, 42);
-    //ellipse(393, 307, 30, 30);
+
 
